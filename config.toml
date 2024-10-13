@@ -60,7 +60,7 @@ paginate = 5
     title = "Joe Kurina's Site"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "An Engineer's Personal Website"
       owner = ""
       keywords = ""
       copyright = ""

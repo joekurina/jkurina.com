@@ -1,97 +1,94 @@
-baseurl = "/"
-languageCode = "en-us"
+baseURL = "https://jkurina.com"
+theme = "risotto"
 title = "Joe Kurina's Website"
-# Add it only if you keep the theme in the `themes` directory.
-# Remove it if you use the theme as a remote Hugo Module.
-theme = "terminal"
-paginate = 5
+author = "Joe Kurina"
+copyright = "© Joe Kurina"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+noindex = false
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+[params.theme]
+palette = "base16-dark"
 
-  # show selector to switch language
-  showLanguageSelector = false
+# Sidebar: about/bio
+[params.about]
+title = "Joe Kurina"
+description = "An Embedded Engineer"
 
-  # set theme to full screen width
-  fullWidthTheme = false
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
-  # center theme with default width
-  centerTheme = false
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/joekurina"
 
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:jkurina86@proton.me"
 
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+[menu]
 
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
 
-  # whether to show a page's estimated reading time
-  # readingTime = false # default
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
 
-  # whether to show a table of contents
-  # can be overridden in a page's front-matter
-  # Toc = false # default
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
 
-  # set title for the table of contents
-  # can be overridden in a page's front-matter
-  # TocTitle = "Table of Contents" # default
+[markup]
 
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
+[privacy]
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    title = "Joe Kurina's Site"
+  [privacy.vimeo]
+    disabled = false
+    simple = true
 
-    [languages.en.params]
-      subtitle = "An Engineer's Personal Website"
-      owner = ""
-      keywords = ""
-      copyright = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
-      minuteReadingTime = "min read"
-      words = "words"
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
 
-      [languages.en.params.logo]
-        logoText = "JKURINA.COM"
-        logoHomeLink = "/"
+  [privacy.instagram]
+    disabled = false
+    simple = true
 
-      [languages.en.menu]
-        [[languages.en.menu.main]]
-          identifier = "about"
-          name = "About"
-          url = "/about"
-        [[languages.en.menu.main]]
-          identifier = "projects"
-          name = "Projects"
-          url = "/projects"
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
 
-[module]
-  # In case you would like to make changes to the theme and keep it locally in you repository,
-  # uncomment the line below (and correct the local path if necessary).
-  # --
-  replacements = "github.com/panr/hugo-theme-terminal/v4 -> terminal"
-[[module.imports]]
-  path = 'github.com/panr/hugo-theme-terminal/v4'
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Joe Kurina&#39;s Website</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Joe Kurina&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Joe Kurina</copyright>
+    <lastBuildDate>Sun, 13 Oct 2024 12:34:13 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/post/my-first-post/</link>
+      <pubDate>Sun, 13 Oct 2024 12:34:13 -0700</pubDate>
+      <guid>http://localhost:1313/post/my-first-post/</guid>
+      <description>Welcome! My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.</description>
+    </item>
+  </channel>
+</rss>

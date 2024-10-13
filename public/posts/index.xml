@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Joe Kurina&#39;s Site</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Joe Kurina&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Oct 2024 01:18:35 -0700</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>//localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 13 Oct 2024 01:18:35 -0700</pubDate>
+      
+      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <description>Hello world! This is the first post on my website. I&amp;rsquo;ll be making some more posts soon, so stay tuned!</description>
+      <content>&lt;p&gt;Hello world! This is the first post on my website. I&amp;rsquo;ll be making some more posts soon, so stay tuned!&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

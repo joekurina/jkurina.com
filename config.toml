@@ -57,7 +57,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Joe Kurina's Site"
 
     [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
@@ -75,7 +75,7 @@ paginate = 5
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "JKURINA.COM"
         logoHomeLink = "/"
 
       [languages.en.menu]

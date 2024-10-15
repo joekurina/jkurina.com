@@ -17,11 +17,11 @@
       <description>Welcome! My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.</description>
     </item>
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.</description>
+      <description>My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.&#xA;About The Site I&amp;rsquo;ve built this using the Hugo static site generator and the Risotto theme. My plan is to learn a bit more about web development and use this as a basis for extending the theme.</description>
     </item>
     <item>
       <title></title>
@@ -29,6 +29,13 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/archives/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Here&amp;rsquo;s a list of some of the projects I&amp;rsquo;m working on. I&amp;rsquo;ll get a feed of posts associated with each up on here soon, but for now you can take a look at my github or send me an email.&#xA;Acceleration of Homomorphic Encryption Primitives Using OneAPI, an FPGA, and a GPU I&amp;rsquo;m going to be basing my Master&amp;rsquo;s Thesis on this project. I&amp;rsquo;m working with Professor Sunny Kim, who&amp;rsquo;s now at the Rochester Insitute of Technology, and some engineers at Intel to accelerate homomorphic encryption primitives in a heterogeneous compute environment.</description>
     </item>
   </channel>
 </rss>

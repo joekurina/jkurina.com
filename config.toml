@@ -12,7 +12,7 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
-sectionPagesMenu = "main"
+#sectionPagesMenu = "main"
 
 [params]
 noindex = false
@@ -52,6 +52,12 @@ url = "mailto:jkurina86@proton.me"
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
+    weight = 20
+
+    [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
     weight = 20
 
 

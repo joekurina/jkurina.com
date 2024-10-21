@@ -4,7 +4,7 @@
     <title>Joe Kurina&#39;s Website</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Joe Kurina&#39;s Website</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Joe Kurina</copyright>
     <lastBuildDate>Sun, 13 Oct 2024 12:34:13 -0700</lastBuildDate>
@@ -21,7 +21,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.&#xA;About The Site I&amp;rsquo;ve built this using the Hugo static site generator and the Risotto theme. My plan is to learn a bit more about web development and use this as a basis for extending the theme.</description>
+      <description>My name is Joe and this is my site.&#xA;I&amp;rsquo;m an embedded systems engineer and a masters student with an interest in security, cryptography, and reverse engineering.&#xA;I&amp;rsquo;ll be using this site to post about my projects and other things I find interesting.&#xA;About The Site I&amp;rsquo;ve built this using the Hugo static site generator and the Risotto theme. It&amp;rsquo;s deployed as an app on DigitalOcean&amp;rsquo;s app platform which monitors my github repo and rebuilds the site every time I push to it&amp;hellip; How cool is that?</description>
     </item>
     <item>
       <title></title>

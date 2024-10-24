@@ -9,7 +9,7 @@ draft = false
 
 In this post we'll be attempting to install, run, and analyze the Aloha-HE implementation on the PYNQ-Z2 development board as instructed on the project README here: https://github.com/flokrieger/Aloha-HE
 
-Full disclosure: I haven't been able to get this working yet, but it's my hope that by documenting my process here, I'll be able to figure it out (or get some help) without polluting their inbox or github issues page with a lot of back-and-forth.
+Full disclosure: I haven't been able to get this working yet, but it's my hope that by documenting my process here, I'll be able to figure it out (or get some help) without polluting the authors' inbox or github issues page with a lot of back-and-forth.
 
 ## Project Overview
 Let's start off by reading their paper and going over the fundamentals of what homomorphic encryption is and how it's accomplished: [Aloha-HE: A Low-Area Hardware Accelerator for Client-Side Operations in Homomorphic Encryption](https://eprint.iacr.org/2023/1736).

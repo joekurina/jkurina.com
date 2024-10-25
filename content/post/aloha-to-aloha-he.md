@@ -7,7 +7,7 @@ draft = false
 
 ## Introduction
 
-In this post we'll be attempting to install, run, and analyze the Aloha-HE implementation on the PYNQ-Z2 development board as instructed on the project README here: https://github.com/flokrieger/Aloha-HE
+In this post we'll be attempting to install, run, and analyze the Aloha-HE implementation on the PYNQ-Z2 development board as instructed on the project [README](https://github.com/flokrieger/Aloha-HE).
 
 Full disclosure: I haven't been able to get this working yet, but it's my hope that by documenting my process here, I'll be able to figure it out (or get some help) without polluting the authors' inbox or github issues page with a lot of back-and-forth.
 

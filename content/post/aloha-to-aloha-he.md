@@ -41,9 +41,9 @@ Here's my environment:
 Right off the bat, we run into some problems. First, installing Vivado on Ubuntu has been a fraught endeavor for years; at a certain point the installer will just hang. Fortunately this is a headache I have endured in the past and I knew that I needed to search google for a post containing the packages required: **libncurses5** and **libtinfo5**. If you're following along with me, <u>*make sure that these packages are installed before you begin!*</u>
 
 With that out of the way, something that the README fails to point out is that the build is going to assume that you're installing your toolchain in: \
-/opt/Xilinx/ \
+<center>/opt/Xilinx/</center> \
 However, the default location suggested by the Vivado installer is: \
-/tools/Xilinx/ \
+<center>/tools/Xilinx/</center> \
 This isn't a big deal, but it's something we need to be aware of if we want to avoid an angry linker trying to find our libraries in folders that don't exist in the near future. Little things like this can be a real time-sink, and my job as a crash-test-dummy is to run into these problems before you do and give a heads up! For the sake of using the Aloha-HE distribution AS-IS, and the fact that I prefer to use existing conventions on my system, I'm going to set the default installation location in: \
 /opt/Xilinx/ \
 \

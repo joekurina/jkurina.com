@@ -25,10 +25,11 @@ This is a huge win for data privacy! I'll get in to the math behind this a littl
 <br>
 Enter the Number Theoretic Transform (NTT)! I will get into the nitty-gritty of this operation in a future post, but what it does for us is simplify polynomial multiplication by allowing us to use element-wise multiplication on our transformed vectors. Here is where we can take advantage of hardware accleration! FPGAs really shine in operations like these which can be *parallelized* and *pipelined*. Below is the overall architecture of this accelerator: 
 <br>
+<br>
 <center><img src="/aloha-he-architecture.PNG"></center>
-
+<br>
 So that's the accelerator, lets get it running and then later explore the details of its implementation!
-
+<hr>
 ## Prerequisites
 Per the github README, this project was built using Vivado 2019.1 for the PYNQ-Z2 and Genesys2 boards.
 Here's my environment:

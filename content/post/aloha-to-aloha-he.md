@@ -22,6 +22,7 @@ Here's a video uploaded by one of the authors giving a brief explanation of the 
 In a nutshell, homomorphic encryption allows you to perform computations on encrypted data without having to decrypt it.
 This is a huge win for data privacy! I'll get in to the math behind this a little more in future posts, but the gist is that the plaintext data is first encoded into large-order polynomials in a quotient ring and then multiplied by a public-key along with samples from a noise distribution to create a cyphertext pair. Herein lies the motivation for a hardware accelerator; expanding and encoding the plaintext data into a massive polynomial vector increases the size and performing polynomial multiplication introduces a huge computational overhead.
 <br>
+<br>
 Enter the Number Theoretic Transform (NTT)! I will get into the nitty-gritty of this operation in a future post, but what it does for us is simplify polynomial multiplication by allowing us to use element-wise multiplication on our transformed vectors. Here is where we can take advantage of hardware accleration! FPGAs really shine in operations like these which can be *parallelized* and *pipelined*. Below is the overall architecture of this accelerator: 
 <br>
 <center><img src="/aloha-he-architecture.PNG"></center>

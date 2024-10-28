@@ -29,7 +29,9 @@ Enter the Number Theoretic Transform (NTT)! I will get into the nitty-gritty of 
 <center><img src="/aloha-he-architecture.PNG"></center>
 <br>
 So that's the accelerator, lets get it running and then later explore the details of its implementation!
-<hr>
+
+---
+
 ## Prerequisites
 Per the github README, this project was built using Vivado 2019.1 for the PYNQ-Z2 and Genesys2 boards.
 Here's my environment:
